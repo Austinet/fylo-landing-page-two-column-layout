@@ -1,0 +1,144 @@
+
+/* responsiveness */
+
+@media(max-width: 985px) {
+    html {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 880px) {
+    .hero-section,
+    .feature-container{
+        flex-direction: column-reverse;
+    }
+
+    .hero-section > div {
+        text-align: center;
+    }
+
+    .hero-section > div,
+    .feature-container > div,
+    .cta-container > div {
+        width: 80%;
+        margin: 0 auto 1.5rem;
+    }
+
+    .intro-details .form-control,
+    .cta-container{
+        flex-direction: column;
+    }
+
+    .intro-details .form-control div{
+        width: 70%;
+        margin: auto;
+    }
+
+    .intro-details .form-control button {
+        display: block;
+        margin: 1rem auto;
+    } 
+}
+
+@media(max-width: 600px) {
+    .standard-width {
+        padding: 2rem 0;
+    }
+
+    .logo-section img {
+        width: 100px;
+    }
+
+    nav a {
+        margin-left: 1.2rem;
+    }
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .footer-nav > div {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-nav .socials {
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+@media(max-width: 470px) {
+    html {
+        font-size: 14px;
+    }
+
+    nav a {
+        margin-left: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .intro-details .form-control div{
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .hero-section {
+        margin-bottom: 1rem;
+    }
+
+    .curve-background {
+        background: url(../images/bg-curve-mobile.svg) no-repeat;
+        background-size: cover;
+        height: 65px;
+    }
+
+    h2,
+    .cta-container {
+        text-align: center;
+    }
+    
+    .feature-section {
+        padding-bottom: 1rem;
+    }
+
+    .features-link-container {
+        text-align: center;
+    }
+
+    .feature-details .testimonial {
+        width: 100%;
+    }
+
+    .cta-form input {
+        width: 100%;
+    }
+}
+
+@media(max-width: 312px) {
+    .logo-section img {
+        width: 70px;
+    }
+
+    nav a {
+        margin-left: 0.5rem;
+    }
+}
