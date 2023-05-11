@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/Austinet/fylo-landing-page-two-column-layout.git)
-- Live Site URL: [Hosted Site](https://Austinet.github.io/fylo-landing-page-two-column-layout/)
+- Live Site URL: [Hosted Site](https://Austinet.github.io/git/fylo-landing-page-two-column-layout)
 
 ## My process
 
